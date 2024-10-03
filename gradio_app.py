@@ -330,7 +330,6 @@ with gr.Blocks() as iface:
 
     def temp_read_caption(evt: gr.EventData):
         global current_index, allow_write
-        print(current_index)
         # filename,caption
         allow_write = True
         try:
